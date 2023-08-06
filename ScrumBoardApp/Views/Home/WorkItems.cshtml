@@ -1,0 +1,26 @@
+﻿@model List<WorkItem>
+
+<h1>Work Items</h1>
+
+<a href="@Url.Action("NewWorkItem", "CreateWorkItem")" class="btn btn-primary">Create New Workitem</a>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+    @foreach (var workItem in Model)
+    {
+        <div class="col product-box">
+            <div class="border-dark card rounded-0">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Name:</b> @workItem.Fields.Title</h5>
+                    <div class="row mt-4">
+                        <span class="card-text"><b>Description: </b>@Html.Raw(workItem.Fields.Description)</span>
+                        <span class="card-text float-end"><b>Deadline: </b>@workItem.Fields.Deadline</span>
+                    </div>
+                </div>
+                @using (Html.BeginForm("DeleteTaskItem", "Home", new { id = @workItem.Id }, FormMethod.Post))
+                {
+                    <input class="btn btn-secondary" type="submit" value="Delete" onclick="return confirm('Are you sure you want to delete this item?');" />
+                }
+
+            </div>
+        </div>
+    }
+</div>

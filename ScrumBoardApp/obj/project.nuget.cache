@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "VMe3cndCpH00CnUTUBlmulybbsEefnwnZ2ENxvfwhgRLH1IfykfOrL6AbjtkGCEk1lSenm4UQyAsLvDk3raCtA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\navee\\Downloads\\ScrumBoardApp-20230806T021022Z-001\\ScrumBoardApp\\ScrumBoardApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\navee\\.nuget\\packages\\identitymodel\\6.1.0\\identitymodel.6.1.0.nupkg.sha512",
+    "C:\\Users\\navee\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\navee\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\navee\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\navee\\.nuget\\packages\\system.security.permissions\\7.0.0\\system.security.permissions.7.0.0.nupkg.sha512",
+    "C:\\Users\\navee\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
